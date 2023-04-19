@@ -1,7 +1,7 @@
+const prompt = require("prompt-sync")();
 // Task -1
 
-// function Register() {
-//     const prompt = require("prompt-sync")();
+// function reGister() {
 //     let name = prompt("Enter your Name...");
 //     let surname = prompt("Enter your SuName...");
 //     let mail = prompt("Enter your Email...");
@@ -10,14 +10,13 @@
 //     return (`${mail}-${surname} ${name}`)
 // }
 
-// Register();
+// reGister();
 
 //---------------------------------------------
 
 
 //Task - 2
-// function Cost() {
-//     const prompt = require("prompt-sync")();
+// function cosT() {
 //     let km = prompt("Enter Distance...");
 //     km = parseFloat(km)
 //     let cost = 5 + (km*0.25)
@@ -26,7 +25,7 @@
 //     return (cost);
 // }
 
-// Cost();
+// cosT();
 //-------------------------------------------------
 
 //Task-3
@@ -52,7 +51,7 @@
 //     }
 // ]
 
-// function Discounter(pros) {
+// function disCounter(pros) {
 //     pros.forEach(pro => {
 //         if(pro.Quantity >= 5){
 //             let x = pro.Price * 0.9;
@@ -68,4 +67,4 @@
 
     
 // }
-// Discounter(pros)
+// disCounter(pros)
