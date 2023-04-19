@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")();
 // Task -1
 
-// function reGister() {
+// function register() {
 //     let name = prompt("Enter your Name...");
 //     let surname = prompt("Enter your SuName...");
 //     let mail = prompt("Enter your Email...");
@@ -10,13 +10,13 @@ const prompt = require("prompt-sync")();
 //     return (`${mail}-${surname} ${name}`)
 // }
 
-// reGister();
+// register();
 
 //---------------------------------------------
 
 
 //Task - 2
-// function cosT() {
+// function cost() {
 //     let km = prompt("Enter Distance...");
 //     km = parseFloat(km)
 //     let cost = 5 + (km*0.25)
@@ -25,7 +25,7 @@ const prompt = require("prompt-sync")();
 //     return (cost);
 // }
 
-// cosT();
+// cost();
 //-------------------------------------------------
 
 //Task-3
@@ -44,27 +44,34 @@ const prompt = require("prompt-sync")();
 //         Promotion : true
 //     },
 //     {
-//         Name : "Tomato",
-//         Price: 2.35,
+//         Name : "Apple",
+//         Price: 1.7,
 //         Quantity: 3,
 //         Promotion : false
+//     },
+//     {
+//         Name : "Potato",
+//         Price: 3,
+//         Quantity: 5,
+//         Promotion : true
 //     }
 // ]
 
-// function disCounter(pros) {
-//     pros.forEach(pro => {
+// function disCounter(pro) {
+//     let x = pro.Price;
 //         if(pro.Quantity >= 5){
-//             let x = pro.Price * 0.9;
-//             pro.Price = x;
+//             x = pro.Price * 0.9;
 
 //         }
 //         if (pro.Promotion == true) {
-//             let y = pro.Price * 0.85;
-//             pro.Price = y;
+//             x = pro.Price * 0.85;
 //         }
-//     });
-//     console.log(pros);
+//         return (x)
 
     
 // }
-// disCounter(pros)
+
+// pros.forEach(pro => {
+//     pro.Price = disCounter(pro);
+// });
+// console.log(pros);
